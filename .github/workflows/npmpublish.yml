@@ -36,9 +36,7 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
           scope: '@your-github-username'
-      run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: echo "//registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN" >> ~/.npmrc
       - run: npm install
       - run: npm publish
         env:
