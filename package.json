@@ -12,5 +12,9 @@
   ],
   "author": "Deepak Rathaur",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DeepRathaur/mdm-exm-1.git"
+  },
   "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
