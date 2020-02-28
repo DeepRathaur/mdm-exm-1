@@ -3,3 +3,4 @@ module.exports.perimeter1 = radius => 2*Math.PI*radius ;
 module.exports.perimeter = radius => 2*Math.PI*radius ;
 module.exports.perimeter2 = radius => 2*Math.PI*radius ;
 module.exports.perimeter3 = radius => 2*Math.PI*radius ;
+module.exports.deepakTest = radius => 2*Math.PI*radius ;
