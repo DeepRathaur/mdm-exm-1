@@ -11,5 +11,6 @@
     "mdm"
   ],
   "author": "Deepak Rathaur",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
